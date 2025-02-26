@@ -1787,8 +1787,8 @@ function buildCountryFlag() {
       
       <!-- Twitter Card Meta Tags -->
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="Fairy-VPN | Free Vless & Trojan Accounts">
-      <meta name="twitter:description" content="Get free Vless accounts and fast VPN services via Cloudflare with Fairy-VPN. Privacy and security guaranteed.">
+      <meta name="twitter:title" content="Free Vless & Trojan Accounts">
+      <meta name="twitter:description" content="">
       <meta name="twitter:image" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg"> 
       <meta name="twitter:site" content="@sampiiiiu">
       <meta name="twitter:creator" content="@sampiiiiu">
