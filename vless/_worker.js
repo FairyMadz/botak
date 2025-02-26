@@ -1769,16 +1769,16 @@ function buildCountryFlag() {
       <title>Fairy-VPN | VPN Tunnel | CloudFlare</title>
       
       <!-- SEO Meta Tags -->
-      <meta name="description" content="Akun Vless Gratis. Fairy-VPN offers free Vless accounts with Cloudflare and Trojan support. Secure and fast VPN tunnel services.">
-      <meta name="keywords" content="Fairy-VPN, Free Vless, Vless CF, Trojan CF, Cloudflare, VPN Tunnel, Akun Vless Gratis">
+      <meta name="description" content="Free Vless | Trojan | ShadowSocks Accounts">
+      <meta name="keywords" content="">
       <meta name="author" content="Fairy-VPN">
       <meta name="robots" content="index, follow"> 
       <meta name="robots" content="noarchive"> 
       <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"> 
       
       <!-- Social Media Meta Tags -->
-      <meta property="og:title" content="Fairy-VPN | Free Vless & Trojan Accounts">
-      <meta property="og:description" content="Fairy-VPN provides free Vless accounts and VPN tunnels via Cloudflare. Secure, fast, and easy setup.">
+      <meta property="og:title" content="Free Vless | Trojan | ShadowSocks Accounts">
+      <meta property="og:description" content="">
       <meta property="og:image" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg">
       <meta property="og:url" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg">
       <meta property="og:type" content="website">
@@ -1787,7 +1787,7 @@ function buildCountryFlag() {
       
       <!-- Twitter Card Meta Tags -->
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="Free Vless & Trojan Accounts">
+      <meta name="twitter:title" content="Free Vless | Trojan | ShadowSocks Accounts">
       <meta name="twitter:description" content="">
       <meta name="twitter:image" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg"> 
       <meta name="twitter:site" content="@sampiiiiu">
