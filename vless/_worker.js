@@ -1779,8 +1779,8 @@ function buildCountryFlag() {
       <!-- Social Media Meta Tags -->
       <meta property="og:title" content="Fairy-VPN | Free Vless & Trojan Accounts">
       <meta property="og:description" content="Fairy-VPN provides free Vless accounts and VPN tunnels via Cloudflare. Secure, fast, and easy setup.">
-      <meta property="og:image" content="https://geoproject.biz.id/circle-flags/bote.png">
-      <meta property="og:url" content="https://geoproject.biz.id/circle-flags/bote.png">
+      <meta property="og:image" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg">
+      <meta property="og:url" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg">
       <meta property="og:type" content="website">
       <meta property="og:site_name" content="Fairy-VPN">
       <meta property="og:locale" content="en_US">
@@ -1789,7 +1789,7 @@ function buildCountryFlag() {
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="Fairy-VPN | Free Vless & Trojan Accounts">
       <meta name="twitter:description" content="Get free Vless accounts and fast VPN services via Cloudflare with Fairy-VPN. Privacy and security guaranteed.">
-      <meta name="twitter:image" content="https://geoproject.biz.id/circle-flags/bote.png"> 
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg"> 
       <meta name="twitter:site" content="@sampiiiiu">
       <meta name="twitter:creator" content="@sampiiiiu">
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1798,7 +1798,7 @@ function buildCountryFlag() {
       
       <!-- Telegram Meta Tags -->
       <meta property="og:image:type" content="image/jpeg"> 
-      <meta property="og:image:secure_url" content="https://geoproject.biz.id/circle-flags/bote.png">
+      <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg">
       <meta property="og:audio" content="URL-to-audio-if-any"> 
       <meta property="og:video" content="URL-to-video-if-any"> 
       
@@ -1814,8 +1814,8 @@ function buildCountryFlag() {
       <meta property="og:image:alt" content="Fairy-VPN Image Preview">
       
       <!-- Favicon and Icon links -->
-      <link rel="icon" href="https://geoproject.biz.id/circle-flags/bote.png">
-      <link rel="apple-touch-icon" href="https://geoproject.biz.id/circle-flags/bote.png">
+      <link rel="icon" href="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg">
+      <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/Screenshot_20250227-011939%7E2.jpg">
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.tailwindcss.com"></script>
       
