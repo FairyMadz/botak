@@ -209,7 +209,7 @@ export default {
         case "/vpn":
           return new Response(await handleSubRequest(url.hostname), { headers: { 'Content-Type': 'text/html' } });
         case "/":
-          // Konten untuk root dengan pengalihan otomatis ke /web setelah 3 detik
+          // Konten untuk root dengan pengalihan otomatis ke /web setelah 0 detik
           return new Response(
             `
 <!DOCTYPE html>
