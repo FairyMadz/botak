@@ -2906,18 +2906,18 @@ function buildCountryFlag() {
 Assalamualaikum Warahmatullahi Wabarakatuh</span>
                 </span>
                 <span class="menu">
-                    <a href="https://t.me/sampiiiiu" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/abcdef4yy" target="_blank" rel="noopener noreferrer">
                         <img src="${telegramku}" alt="menu" width="30"> ADMIN TELEGRAM
                     </a>
                 </span> 
                 <span class="menu">
-                    <a href="https://wa.me/6282339191527" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
                         <img src="${whatsappku}" alt="menu" width="30"> ADMIN WHATSAPP
                     </a>
                 </span>
                 <span class="menu">
-                    <a href="${channelku}" target="_blank" rel="noopener noreferrer">
-                        <img src="https://cepu.us.kg/telegram.png" alt="menu" width="30"> CHANNEL TESTIMONI
+                    <a href="https://t.me/Mediafairy_Bot" target="_blank" rel="noopener noreferrer">
+                        <img src="https://cepu.us.kg/telegram.png" alt="menu" width="30"> TELEGRAM BOT
                     </a>
                 </span>
                 <button class="button7" id="close" onclick="hidePopup('menu')">Close</button>
