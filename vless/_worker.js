@@ -1,9 +1,9 @@
 import { connect } from "cloudflare:sockets";
 
 const proxyListURL = 'https://raw.githubusercontent.com/jaka2m/botak/refs/heads/main/cek/proxyList.txt';
-const namaWeb = 'GEO PROJECT'
-const telegrambot = 'https://t.me/VLTRSSbot'
-const channelku = 'https://t.me/testikuy_mang'
+const namaWeb = 'FREE PROXY CF'
+const telegrambot = 'https://t.me/Mediafairy_bot'
+const channelku = ''
 const telegramku = 'https://geoproject.biz.id/circle-flags/telegram.png'
 const whatsappku = 'https://geoproject.biz.id/circle-flags/whatsapp.png'
 const ope = 'https://geoproject.biz.id/circle-flags/options.png'
@@ -20,6 +20,9 @@ const wildcards = [
    'zaintest.vuclip.com',
    'ads.ruangguru.com',
    'api.midtrans.com',
+   'bakrie.ac.id',
+   'siakad.esaunggul.ac.id',
+   'chat.sociomile.com'
 ];
 // Global Variables
 let cachedProxyList = [];
@@ -215,7 +218,7 @@ export default {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GeoVPN - Your Ultimate VPN Solution</title>
+  <title>FairyVPN - Your Ultimate VPN Solution</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <noscript>
       <style amp-boilerplate>
@@ -768,29 +771,7 @@ export default {
                 <td><a href="https://t.me/testikuy_mang">Click Here To Check</a> 🔥</td>
               </tr>
               <tr>
-                <td>Payment</td>
-                <td>📱QRIS, ⭐Paypal</td>
-              </tr>
-              <tr>
-                <td>Mata Uang</td>
-                <td>IDR (Indonesia Rupiah) && ALL PAYMENT</td>
-              </tr>
-              <tr>
-                <td>Jam Operasional</td>
-                <td>24 Jam Online</td>
-              </tr>
-              <tr>
-                <td>Card Pembelian</td>
-                <td>Full Garansi 30 Days 3x Replace</td>
-              </tr>
-              <tr>
-                <td>Rating</td>
-                <td>⭐⭐⭐⭐⭐⭐</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-        <style>
+
         .contact-icons {
             position: fixed;
             bottom: 20px;
@@ -808,7 +789,7 @@ export default {
         }
     </style>
     <div class="contact-icons">
-        <a href="https://t.me/sampiiiiu" target="_blank">
+        <a href="https://t.me/abcdef4yy" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="Telegram Icon">
         </a>
     </div>
