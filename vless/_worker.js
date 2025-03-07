@@ -633,10 +633,6 @@ export default {
         }
       }
 
-      @media only screen and (max-width: 720px) {
-        .box-games-wrapper {
-          justify-content: center;
-        }
 
         .box-games-wrapper .box-games {
           width: 45%;
@@ -734,9 +730,9 @@ body {
     background: var(--color-card);
     border-radius: 16px;
     padding: 2rem;
-    box-shadow: 0 10px 30px rgba(0, 255, 136, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 150, 100, 0.01);
     backdrop-filter: blur(15px); /* Efek blur latar belakang */
-    border: 1px solid rgba(0, 255, 136, 0.2); /* Border transparan */
+    border: 1px solid rgba(0, 150, 100, 0.01); /* Border transparan */
     transition: var(--transition);
     -webkit-backdrop-filter: blur(15px); /* Untuk Safari */
     background-color: rgba(0, 0, 0, 0); /* Menghapus latar belakang solid */
@@ -768,7 +764,7 @@ body {
 .form-control {
     width: 100%;
     padding: 0.75rem 1rem;
-    background: rgba(0, 255, 136, 0.1);
+    background: rgba(0, 150, 100, 0.01);
     border: 2px solid rgba(0, 255, 136, 0.3);
     border-radius: 8px;
     color: var(--color-text);
@@ -799,7 +795,7 @@ body {
 .result {
     margin-top: 1rem;
     padding: 1rem;
-    background: rgba(0, 255, 136, 0.1);
+    background: rgba(0, 150, 100, 0.01);
     border-radius: 8px;
     word-break: break-all;
 }
@@ -858,12 +854,7 @@ body {
       .watermark a:hover {
         color: #00FFFF;
       }
-    
-      @media (max-width: 768px) {
-        .header h1 { font-size: 32px; }
-        .config-section h3 { font-size: 24px; }
-        .config-block h4 { font-size: 20px; }
-      }
+  
       
       .watermark-container {
   position: fixed;
@@ -1501,19 +1492,19 @@ function buildCountryFlag() {
     <td class="country-cell">${config.countryCode} | ${config.isp}</td>
     <td class="path-cell">${config.path}</td>
     <td class="button-cell">
-        <button class="px-3 py-1 bg-gradient-to-r from-[#39ff14] to-[#008080] text-black font-semibold border-0 rounded-md transform transition hover:scale-105" 
+        <button class="px-3 py-1 bg-gradient-to-r from-[#99FFFF] to-[#48D1CC] text-black font-semibold border-0 rounded-md transform transition hover:scale-105" 
             onclick="showOptions('VLess', '${vlessTLSRibet}', '${vlessTLSSimple}')">
             VLESS
         </button>
     </td>
     <td class="button-cell">
-        <button class="px-3 py-1 bg-gradient-to-r from-[#39ff14] to-[#008080] text-black font-semibold border-0 rounded-md transform transition hover:scale-105" 
+        <button class="px-3 py-1 bg-gradient-to-r from-[#99FFFF] to-[#48D1CC] text-black font-semibold border-0 rounded-md transform transition hover:scale-105" 
             onclick="showOptions('Trojan', '${trojanTLSRibet}', '${trojanTLSSimple}')">
             TROJAN
         </button>
     </td>
     <td class="button-cell">
-        <button class="px-3 py-1 bg-gradient-to-r from-[#39ff14] to-[#008080] text-black font-semibold border-0 rounded-md transform transition hover:scale-105" 
+        <button class="px-3 py-1 bg-gradient-to-r from-[#99FFFF] to-[#48D1CC] text-black font-semibold border-0 rounded-md transform transition hover:scale-105" 
             onclick="showOptions('SS', '${ssTLSRibet}', '${ssTLSSimple}')">
             Shadowsocks
         </button>
@@ -1820,8 +1811,8 @@ function buildCountryFlag() {
       
     <style>
       :root {
-        --primary: #00ff88;
-        --secondary: #00ffff;
+        --primary: #99FFFF;
+        --secondary: #99FFFF;
         --accent: #ff00ff;
         --dark: #080c14;
         --darker: #040608;
@@ -2026,11 +2017,6 @@ function buildCountryFlag() {
   min-width: 100px; /* Tambahkan batas minimum untuk dropdown */
 }
 
-@media (min-width: 768px) {
-  .wildcard-dropdown select {
-    max-width: 300px; /* Pada layar besar, tetapkan batas lebar dropdown */
-  }
-}
 
       select {
         width: 100%;
@@ -2062,7 +2048,7 @@ function buildCountryFlag() {
 
       select:focus {
         border-color: var(--secondary);
-        background: rgba(0, 255, 136, 0.1);
+        background: rgba(0, 150, 100, 0.01);
         box-shadow: 0 0 20px var(--secondary);
       }
 
@@ -2166,7 +2152,7 @@ function buildCountryFlag() {
   z-index: 1;
 
   /* Tambahkan efek glow */
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), /* Glow putih */
+  box-shadow: 0 0 15px rgba(240, 240, 240, 0.3), /* Glow putih */
               0 0 30px rgba(0, 150, 255, 0.5);   /* Glow biru */
   
   /* Default untuk HP */
@@ -2189,16 +2175,11 @@ function buildCountryFlag() {
     border-radius: 10px; /* Membuat sudut melengkung */
     padding: 0px; /* Memberi jarak antara border dan konten */
     background-color: rgba(0, 0, 0, 0.82); /* Warna latar belakang */
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), /* Glow putih */
+    box-shadow: 0 0 15px rgba(240, 240, 240, 0.3), /* Glow putih */
               0 0 30px rgba(0, 150, 255, 0.5);   /* Glow biru */
 
 }
 
-@media (min-width: 768px) {
-  .quantum-card {
-    margin: 0 2rem; /* Tambahkan lebih banyak ruang pada layar besar */
-  }
-}
 
       @keyframes cardFloat {
         0%, 100% { transform: translateY(0) rotateX(0); }
@@ -2240,11 +2221,11 @@ function buildCountryFlag() {
             font-size: 4vw;
             font-weight: bold;
             text-shadow: 
-                0 0 5px rgba(0, 123, 255, 0.8),
-                0 0 10px rgba(0, 123, 255, 0.8),
-                0 0 20px rgba(0, 123, 255, 0.8),
-                0 0 30px rgba(0, 123, 255, 0.8),
-                0 0 40px rgba(0, 123, 255, 0.8);
+                0 0 5px rgba(25, 229, 246, 0.8),
+                0 0 10px rgba(25, 229, 246, 0.8),
+                0 0 20px rgba(25, 229, 246, 0.8),
+                0 0 30px rgba(25, 229, 246, 0.8),
+                0 0 40px rgba(25, 229, 246, 0.8);
       }
 
       .search-quantum {
@@ -2273,7 +2254,7 @@ function buildCountryFlag() {
         outline: none;
         border-color: var(--primary);
         box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
-        background: rgba(0, 255, 136, 0.1);
+        background: rgba(0, 150, 100, 0.01);
       }
 
       .quantum-table {
@@ -2286,12 +2267,21 @@ function buildCountryFlag() {
     }
 
       .quantum-table th {
-        background-color: rgba(0, 255, 136, 0.1); /* Warna hijau */
-      color: white; /* Warna teks putih */
-      font-weight: bold;
-      padding: 10px;
-      text-align: center;
-    }
+        background: rgba(0, 255, 136, 0.1);
+        color: var(--primary);
+        padding: 1.2rem;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-bottom: 2px solid var(--primary);
+        white-space: nowrap;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      
     #total-proxy {
       margin: 20px 0; /* 20px atas dan bawah, 0px kiri dan kanan */
       text-align: center;
@@ -2313,7 +2303,7 @@ function buildCountryFlag() {
       .quantum-table tr:hover td {
         background-color: rgba(0, 255, 136, 0.08); /* Warna latar biru muda saat baris dihover */
       color: #fff; /* Warna teks saat dihover */
-      box-shadow: 0 5px 15px rgba(0, 255, 136, 0.1);
+      box-shadow: 0 5px 15px rgba(0, 150, 100, 0.01);
     }
 
       .copy-btn {
@@ -2372,7 +2362,7 @@ function buildCountryFlag() {
 
       .quantum-pagination a {
         padding: 0.8rem 1.5rem;
-        background: rgba(0, 255, 136, 0.1);
+        background: rgba(0, 150, 100, 0.01);
         color: var(--primary);
         text-decoration: none;
         border-radius: 12px;
@@ -2445,14 +2435,21 @@ function buildCountryFlag() {
           font-size: 10px;
         }
     
-        .table-wrapper {
-          margin: 0.5rem 0;
-          padding: 0;
-          border-radius: 10px;
-          max-height: 60vh; /* Restrict the height of the table */
-          overflow-y: auto; /* Allow scrolling within the table */
-          background: rgba(0, 255, 136, 0.02);
-        }
+     .table-wrapper {
+        width: 100%;
+        max-height: calc(80vh - 200px); /* Atur tinggi maksimal untuk scroll */
+        overflow-y: auto; /* Aktifkan scroll vertikal */
+        -webkit-overflow-scrolling: touch; /* Lancar di perangkat touch */
+        margin: 1rem 0;
+        border-radius: 10px;
+        background: rgba(0, 255, 136, 0.02);
+      }
+      
+      /* Perbaikan pada scrollbar */
+      .table-wrapper::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
     
         .quantum-table th,
         .quantum-table td {
@@ -2516,8 +2513,8 @@ function buildCountryFlag() {
     border: 1px solid #000; /* Border dengan warna abu-abu */
     border-radius: 10px; /* Membuat sudut melengkung */
     padding: 0px; /* Memberi jarak antara border dan konten */
-    background-color: rgba(0, 255, 136, 0.02); /* Warna latar belakang */
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), /* Glow putih */
+    background-color: rgba(0, 150, 100, 0.01); /* Warna latar belakang */
+    box-shadow: 0 0 15px rgba(240, 240, 240, 0.3), /* Glow putih */
               0 0 30px rgba(0, 150, 255, 0.5);   /* Glow biru */
       }
 
@@ -2862,12 +2859,13 @@ function buildCountryFlag() {
         </div>
         <div class="mt-3">
         </div>
+        
         <div class="table-wrapper">
             <table class="quantum-table">
                 <thead>
                     <tr>
                         <th>IP:PORT</th>
-                        <th>STATUS IP</th>
+                        <th>PING</th>
                         <th>COUNTRY</th>
                         <th>ISP</th>
                         <th>PATH</th>
@@ -2881,6 +2879,7 @@ function buildCountryFlag() {
                 </tbody>
             </table>
         </div>
+        
 <div class="quantum-pagination">
                 ${prevPage}
                 ${paginationButtons.join('')}
@@ -2891,6 +2890,14 @@ function buildCountryFlag() {
             Showing ${startIndex + 1} to ${endIndex} of ${totalFilteredConfigs} Proxies
             </div>
         </div>
+    </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h2 class="quantum-title1">
+                <p>&copy; 2025 FREE PROXY CLOUDFLARE </p>
+            </h2>
+        </footer>
     </div>
 
     <!-- JavaScript -->
