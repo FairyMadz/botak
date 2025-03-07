@@ -2853,7 +2853,7 @@ function buildCountryFlag() {
   </select>
   <select id="configType" name="configType" onchange="onConfigTypeChange(event)" style="width: 60px; height: 45px;">
     <option value="tls" ${selectedConfigType === 'tls' ? 'selected' : ''}>TLS</option>
-    <option value="non-tls" ${selectedConfigType === 'non-tls' ? 'selected' : ''}>NON TLS</option> </select><a href="${telegrambot}" target="_blank" rel="noopener noreferrer" style="font-family: 'Geneva', sans-serif;"><img src="https://geoproject.biz.id/circle-flags/telegram.png
+    <option value="non-tls" ${selectedConfigType === 'non-tls' ? 'selected' : ''}>NON TLS</option> </select><a href="${telegramku}" target="_blank" rel="noopener noreferrer" style="font-family: 'Geneva', sans-serif;"><img src="https://geoproject.biz.id/circle-flags/telegram.png
 " alt="menu" width="100"></a>
 </div>
 <div class="w-full h-12 overflow-x-auto px-2 py-1 flex items-center space-x-2 shadow-lg bg-transparent border"
