@@ -3,7 +3,7 @@ import { connect } from "cloudflare:sockets";
 const proxyListURL = 'https://raw.githubusercontent.com/jaka2m/botak/refs/heads/main/cek/proxyList.txt';
 const namaWeb = 'MEDIAFAIRY'
 const telegrambot = 'https://t.me/MediafairyBot'
-const channelku = ''
+const telegramaku = 'https://t.me/abcdef4y'
 const telegramku = 'https://geoproject.biz.id/circle-flags/telegram.png'
 const whatsappku = 'https://geoproject.biz.id/circle-flags/whatsapp.png'
 const ope = 'https://raw.githubusercontent.com/FairyMadz/ahol/refs/heads/main/background/%E2%80%94Pngtree%E2%80%94pokeball%20icon%20vector%20isolated%20black_9875868.png'
@@ -2853,7 +2853,7 @@ function buildCountryFlag() {
   </select>
   <select id="configType" name="configType" onchange="onConfigTypeChange(event)" style="width: 60px; height: 45px;">
     <option value="tls" ${selectedConfigType === 'tls' ? 'selected' : ''}>TLS</option>
-    <option value="non-tls" ${selectedConfigType === 'non-tls' ? 'selected' : ''}>NON TLS</option> </select><a href="${telegramku}" target="_blank" rel="noopener noreferrer" style="font-family: 'Geneva', sans-serif;"><img src="https://geoproject.biz.id/circle-flags/telegram.png
+    <option value="non-tls" ${selectedConfigType === 'non-tls' ? 'selected' : ''}>NON TLS</option> </select><a href="${telegramaku}" target="_blank" rel="noopener noreferrer" style="font-family: 'Geneva', sans-serif;"><img src="https://geoproject.biz.id/circle-flags/telegram.png
 " alt="menu" width="100"></a>
 </div>
 <div class="w-full h-12 overflow-x-auto px-2 py-1 flex items-center space-x-2 shadow-lg bg-transparent border"
