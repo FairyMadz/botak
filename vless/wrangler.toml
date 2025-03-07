@@ -6,10 +6,6 @@ routes = [
   { pattern = "%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "ava.game.naver.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "df.game.naver.com.%worker_name%.%domain_name%", custom_domain = true },
-  { pattern = "quiz.vidio.com.%worker_name%.%domain_name%", custom_domain = true },
-  { pattern = "img.email1.vidio.com.%worker_name%.%domain_name%", custom_domain = true },
-  { pattern = "img.email2.vidio.com.%worker_name%.%domain_name%", custom_domain = true },
-  { pattern = "img.email3.vidio.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "quiz.int.vidio.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "graph.instagram.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "investors.spotify.com.%worker_name%.%domain_name%", custom_domain = true },
@@ -17,14 +13,14 @@ routes = [
   { pattern = "creativeservices.netflix.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "support.zoom.us.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "zaintest.vuclip.com.%worker_name%.%domain_name%", custom_domain = true },
-  { pattern = "live.iflix.com.%worker_name%.%domain_name%", custom_domain = true },
+  { pattern = "backrie.ac.id.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "io.ruangguru.com.%worker_name%.%domain_name%", custom_domain = true },
-  { pattern = "data.mt.%worker_name%.%domain_name%", custom_domain = true },
+  { pattern = "chat.sociomile.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "www.udemy.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "beta.zoom.us.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "blog.webex.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "ads.ruangguru.com.%worker_name%.%domain_name%", custom_domain = true },
-  { pattern = "mssdk24-normal-useast2a.tiktokv.com.%worker_name%.%domain_name%", custom_domain = true },
+  { pattern = "siakad.esaunggul.com.%worker_name%.%domain_name%", custom_domain = true },
   { pattern = "api.midtrans.com.%worker_name%.%domain_name%", custom_domain = true }
 ]
 
